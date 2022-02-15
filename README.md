@@ -73,3 +73,35 @@ $ git diff <commit-tag-1> <commit-tag-2>
 # Get differences between two branches
 $ git diff <branch-name-1> <branch-name-2>
 ```
+
+### Inspecting Changes
+#### Logging
+This will logs the changes in a branch easily.
+```bash
+# Get a simple logs from this branch
+$ git log --oneline
+
+# ... or you can get more details
+$ git log
+```
+
+#### Reset the Changes
+If you do this, you can undo the updates on your files.
+```bash
+# Undone your commit, and the file left staged
+$ git reset <commit-tag> --soft
+
+# Undone your commit, but changes will be destroyed
+$ git reset <commit-tag> --hard
+```
+
+#### Checkout
+Jump to spesific commit as branch or jump to another branch.
+
+```bash
+# Jump to spesific commit
+$ git checkout <commit-tag>
+
+# Jump to a branch, or create new if unavailable
+$ git checkout -b <commit-tag>
+```
