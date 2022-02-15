@@ -1,6 +1,5 @@
 <center>
-<h1>Getting Started on GIT</h1>
-<span>Submission for task 1, Git by Alterra</span>
+<h1>Alterra Academy</h1>
 </center>
 
 <br />
